@@ -5,20 +5,26 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.navbar{
+    background-color: gray;
+    text-align: center;
+    text-decoration-color: cadetblue;
+}
+
 .container{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     border-radius: 8px 8px 0 0;
-    background: white;
+    background: lavender;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
  
 }
 
 .result{
     background-color: #413e3e;
-    color: white;
+    color: aquamarine;
     border-radius: 8px 8px 0 0;
     padding: 20px;
     font-size: 20px;
@@ -50,11 +56,11 @@
 } 
 
 .row button:hover{
-    background-color: #e0e0e0;
+    background-color: skyblue;
 }
 
 .row button:active{
-    background-color: #eeb3b3;
+    background-color: wheat;
 }
 
 #equal{
