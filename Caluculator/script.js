@@ -17,6 +17,7 @@ function updateDisplay(input){
             result.innerText=input
         }
 
+
     }
     else{
        
